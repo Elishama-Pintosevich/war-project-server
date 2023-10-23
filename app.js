@@ -13,7 +13,7 @@ require("./db/mongoConnect");
 const app = express();
 app.use(cors({
     origin: ["https://israel-help.netlify.app", "http://localhost:3000", "https://tora-magna.netlify.app",
-"https://teilim-vaikra.netlify.app","http://vaikra-tehilim.com"],
+"https://teilim-vaikra.netlify.app","https://vaikra-tehilim.com/"],
     methods: ["POST", "PUT", "DELETE", "PATCH", "GET"],
 
 }))
